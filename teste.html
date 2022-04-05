@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVS Licenças</title>
+    <style>.login-screen {background-image: url(assets/images/road.jpg);}</style>
+    <!-- loader-->
+    <link href="assets/css/loader.css" rel="stylesheet"/>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Custom Style-->
+    <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+
+<body class="login-screen">
+    <div class="logo">
+        <img src="assets/images/logo-nvs.png">
+    </div>
+    <!-- main container -->
+    <main class="login-container">
+        <h2>Faça Seu Login</h2>
+        <form action="./assets/scripts/cred-login.php" method="POST">
+            <label for="user">   
+                <div class="input-field">
+                   <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" size="20" height="20" width="20" class="icon">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <input id="user" placeholder="E-mail ou CPF" name="user">
+                    <div class="underline"></div>
+                </div>
+            </label>
+            <label for="password">
+                <div class="input-field">
+                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" size="20" height="20" width="20" class="icon">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                    <input id="password" placeholder="Senha" name="password" type="password">
+                    <div class="underline"></div>
+                </div>
+            </label>
+            <p>
+                <a href="reset-password.php">Esqueceu a senha?</a>
+            </p>
+            <button class="btn" type="submit">Entrar</button>
+        </form>
+    </main>
+
+<!--Footer-->
+    <div>
+        <footer class="footer">
+            <div class="text-center">Copyright © 2022 Mateus Oliveira</div>
+        </footer>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
