@@ -1,0 +1,26 @@
+
+.menu img{
+    width: 80px;
+    border-radius: 50px;
+}
+.menu{
+    margin-left: 20px;
+}
+.menu > li >img{
+    width: 25px;
+}
+.nav{
+    background-color: #262626;
+    width: 200px;
+    height: 100vh;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #38b6ff;
+}
+
+li{
+    margin-top: 30px;
+}
