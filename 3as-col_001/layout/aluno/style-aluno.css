@@ -8,6 +8,7 @@
 }
 .menu > li >img{
     width: 25px;
+    filter: invert(1);
 }
 .nav{
     background-color: #262626;
