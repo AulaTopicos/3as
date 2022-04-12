@@ -1,7 +1,6 @@
 
 .menu img{
     width: 80px;
-    border-radius: 50px;
 }
 .menu{
     margin-left: 20px;
@@ -14,6 +13,7 @@
     background-color: #262626;
     width: 200px;
     height: 100vh;
+    border-top-right-radius: 50px;
 }
 a{
     color: white;
