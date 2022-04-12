@@ -13,6 +13,7 @@
     background-color: #262626;
     width: 200px;
     height: 100vh;
+    border-top-right-radius: 40px;
 }
 a{
     color: white;
@@ -23,4 +24,30 @@ a:hover{
 
 li{
     margin-top: 30px;
+}
+header{
+    position: absolute;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    overflow-x:hidden;
+    float: right;
+    
+}
+#section{
+    width: 860px;
+    height: 100vh;
+}
+.card{
+    margin-top: 30px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: block;
+    width: 650px;  
 }
